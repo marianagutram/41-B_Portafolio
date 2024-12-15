@@ -6,29 +6,35 @@
     <title>Portafolio Mar(tina)</title> <!-- nombre de la pestaña -->
 </head>
 <body>
-    <header>
-        <img src="./mr.jpg" alt="Artista digital">
+    <header style="text-align:center;">
+        <img src="./mr2.jpg" alt="Artista digital" style="width:450px;height:600px;">
         <h1>Mariana Gutiérrez</h1>
         <p>Artista Digital | Animación | Fotografía</p>
         <!-- TAREA:agregar imagen mía (de perfil) -->
     </header>
-    <nav>
+    <nav style="text-align:center;">
         <a href="#sobre_mí">Sobre mí</a> |
         <a href="#experiencia">Experiencia</a> |
         <a href="#educación">Educación</a> |
-        <a href="#contacto">Contacto</a>
+        <a href="#contacto">Contacto</a> |
+        <a href="#trabajos">Trabajos</a>
+
     </nav>
+    <div style="background-color: black; color: black;">
+        <h4>...</h4>
+
+    </div>
+    
     <main>
         <section id="sobre_mí">
             <h2>Sobre mí</h2>
-            <p>Artista digital mexicana interesada en la fotografía y temas relacionados con los espacios digitales, principalmente las redes sociales.</p>
+            <p>Artista digital mexicana interesada en la fotografía y temas relacionados con los espacios digitales, principalmente las redes sociales. Ha colaborado con La Casa de Pandora en la producción de “Encuéntrame” donde trabajó como animadora y storyboard artist; participó en la exposición RandFem con su pieza “New Image” (2023) la cual habla sobre la moda aesthetic y en la exposición Recuerdos de la infancia con la obra “Abrazando mis recuerdos” (2022</p>
         </section>
 
-        <section id="Experiencia"><!-- section#id y automaticamente se pone el codigo -->
+        <section id="experiencia"><!-- section#id y automaticamente se pone el codigo -->
             <h2>Experiencia</h2>
             <article>
-                <h4>Animadora</h4>
-                <p>La casa de pandora | 2023-2024</p>
+                <h4>La casa de pandora | 2023-2024</h4>
                 <ul>
                     <li><p>Storyboard artist</p></li>
                     <li><p>Animación</p></li>
@@ -42,22 +48,38 @@
                     <li><p>Fotografía</p></li>
                     <li><p>Diseño</p></li>
                 </ul>
-                
             </article>
         </section> 
 
-        <section id="Educación">
+        <section id="educación">
             <h2>Educación</h2>
             <article>
-                <li>Licenciatura en arte digital UAEMex</li>
+                <ul>
+                <li><strong>Técnico en Comunicación</strong></li>
+                <p>Colegio de Bachilleres Técnologicos No. 3</p>
+                <p style="font-family:serif; color: green;">(2020)</p>
+                <li><strong>Licenciatura en Arte Digital</strong></li>
+                <p>Universidad Autónoma del Estado de México</p>
+                <p style="font-family:serif; color: green;">(Actualidad)</p>
+
+                <li><strong>Inglés</strong></li>
+                <p>Intermedio B1</p>
+                
+                </ul>
             </article>
         </section>
 
+        <section id="trabajos" style="text-align: center;">
+            <h2>Trabajos</h2>
+            <div></div>
+            <img src="./ave.jpg" style="width:370px ;height:300px;">   <img src="./chatita.jpg" style="width:500px;height:200px;"> <img src="./bus.jpg" style="width:300px;height:300px;"> <img src="./eye.JPG" style="width: 200px;height:400;">  <img src="./a_casa.jpg" style="width:300px;height:300px;">
+        
+        </section>
         <section id="contacto">
             <h2>Contacto</h2>
-            <p>Correo electrónico <a href="mailto:gutierrezariana364@gmail.com" target="_blank">gutierrezariana364@gmail.com</a></p>
+            <p>Correo electrónico <a href="mailto:gutierrezariana364@gmail.com">gutierrezariana364@gmail.com</a></p>
             <!-- <p><a href="http://" target="_blank"></a></p> --> <!-- Al agregar el target="blank" junto con un link, se abre el link -->
-
+        
             <form action="">
                 <div>
                 <label for="nombre">Nombre:</label>
@@ -79,8 +101,10 @@
                 </div>
             </form>
         </section>
+        <br>
+        <br>
         <footer>
-            <p>&copy; 2024 Mariana Gutierréz los derechos son reservados al autor </p>
+            <p>&copy; 2024 Mariana Gutiérrez los derechos son reservados al autor </p>
         </footer>
         
     </main>
